@@ -22,7 +22,7 @@ public class AbrindoHotmail {
 		WebElement botao = driver.findElement(By.xpath(".//*[@id='idSIButton9']"));
 		
 		nome.sendKeys("d_jota_a@hotmail.com");
-		senha.sendKeys("334107jd");
+		senha.sendKeys("");
 		botao.click();
 		
 	}
@@ -37,11 +37,11 @@ public class AbrindoHotmail {
 		WebElement botao = driver.findElement(By.cssSelector("input[type='submit']"));
 		
 		nome.sendKeys("d_jota_a@hotmail.com");
-		senha.sendKeys("soufoda");
+		senha.sendKeys("");
 		botao.click();
 		
 		Thread.sleep(2000);
-		driver.findElement(By.cssSelector("textarea[placeholder='No que você está pensando?']")).sendKeys("@Kaenna");
+		driver.findElement(By.cssSelector("textarea[placeholder='No que vocÃª estÃ¡ pensando?']")).sendKeys("@");
 		
 		
 		driver.findElement(By.cssSelector("button[data-ft='{\"tn\":\"+{\"}'")).click();
